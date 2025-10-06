@@ -1,18 +1,48 @@
-# Git_Github_course
+# 📘 Git & GitHub Course
 
-git add .: O comando git add é usado para adicionar arquivos novos ou modificados do seu diretório de trabalho à área de preparação.
+Este repositório contém anotações e comandos essenciais para aprender e dominar Git e GitHub. Ideal para quem está começando ou quer revisar os principais conceitos.
 
-git commit: usado para salvar alterações no repositório local. Ele cria um instantâneo das mudanças preparadas.
+---
 
-git remote: Git remote é um comando usado para gerenciar o conjunto de repositórios (remotos) cujos branches você acompanha. Ele permite adicionar, remover e gerenciar conexões com outros repositórios.
+## 🧠 Comandos Fundamentais
 
-git push: usado para mandar o commit para o repositorio remoto (git-hub)
+### 🔹 `git add .`
+Adiciona **todos os arquivos modificados ou novos** à área de preparação (staging area), prontos para serem commitados.
 
-git pull: 
+### 🔹 `git commit`
+Salva as alterações no repositório local. Cria um **instantâneo** das mudanças preparadas.
 
+- `--amend`: Permite **modificar o último commit**, seja para alterar a mensagem ou adicionar arquivos esquecidos.
 
-<img width="291" height="61" alt="Image" src="https://github.com/user-attachments/assets/fab95c8c-6a4e-460d-98e7-1ad2eda2c76d" />
+### 🔹 `git remote`
+Gerencia os **repositórios remotos**. Permite adicionar, remover e visualizar conexões com outros repositórios (como o GitHub).
 
-M: A letra M representa o estado Modified, do português modificado. Isso significa que o arquivo já existia no repositório, mas que recebeu alguma modificação que ainda não foi registrada no Git.
+### 🔹 `git push`
+Envia os commits locais para o **repositório remoto** (ex: GitHub).
 
-U: A letra U representa o estado Untracked, do português não rastreado. Isso significa que o arquivo ainda não existia no repositório e que ainda não teve seu registro (commit) feito no Git.
+### 🔹 `git pull`
+Atualiza seu repositório local com as alterações do repositório remoto. É uma combinação de `git fetch` + `git merge`.
+
+### 🔹 `git revert`
+Cria um novo commit que **desfaz** uma alteração anterior, sem alterar o histórico.
+
+### 🔹 `git reset`
+Remove commits ou arquivos da área de staging ou do histórico, dependendo das opções usadas (`--soft`, `--mixed`, `--hard`).
+
+---
+
+## 🔤 Status dos Arquivos
+![Git Status](https://github.com/user-attachments/assets/fab95c8c-6a4e-460d-98e7-1ad2eda2c76d)
+
+| Letra | Significado | Descrição |
+|-------|-------------|-----------|
+| `M`   | Modified     | Arquivo foi **modificado**, mas ainda não commitado. |
+| `U`   | Untracked    | Arquivo **não rastreado** pelo Git, ainda não foi adicionado com `git add`. |
+
+---
+
+## 📄 Arquivo `.gitignore`
+
+Usado para **ignorar arquivos ou pastas** que não devem ser rastreados pelo Git (ex: arquivos temporários, credenciais, dependências locais).
+
+---

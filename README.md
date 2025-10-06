@@ -1,10 +1,10 @@
-# 📘 Git & GitHub Course
+# Git & GitHub Course
 
 Este repositório contém anotações e comandos essenciais para aprender e dominar Git e GitHub. Ideal para quem está começando ou quer revisar os principais conceitos.
 
 ---
 
-## 🧠 Comandos Fundamentais
+## Comandos Fundamentais
 
 ### 🔹 `git add .`
 Adiciona **todos os arquivos modificados ou novos** à área de preparação (staging area), prontos para serem commitados.
@@ -41,7 +41,7 @@ Remove commits ou arquivos da área de staging ou do histórico, dependendo das 
 
 ---
 
-## 📄 Arquivo `.gitignore`
+## `.gitignore`
 
 Usado para **ignorar arquivos ou pastas** que não devem ser rastreados pelo Git (ex: arquivos temporários, credenciais, dependências locais).
 
